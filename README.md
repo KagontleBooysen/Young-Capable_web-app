@@ -41,49 +41,15 @@ As a community, we always encourage people to share their thoughts and ideas. Do
 
 2. Clone the project by running
    ```sh
-   git clone https://github.com/<your-github-username>/opportunity-board.git
+   https://github.com/KagontleBooysen/Young-Capable_web-app.git
    ```
 3. Go into the project directory
    ```sh
-   cd opportunity-board
+   cd Young-Capable_web-app
    ```
-4. Create an `.env` file from the `.env.template` file (copy everything in the `.env.template` file and put it in the `.env` file with appropriate values).
+   OR
 
-   - `POSTGRES_URI` is the `connection string` which you'll get from mongodb [for reference](https://www.mongodb.com/docs/manual/reference/connection-string/).
-   - `GOOGLEAUTH_SECRET` Just pass any `random string` or you can quickly create a good value on the command line via this `openssl command`.
+   ## GO straight to the Site    [Young&Capable](https://youngandcapable.netlify.app)
 
-   ```sh
-   openssl rand -base64 32
-   ```
 
-5. Run docker container
-   ```sh
-   docker compose up
-   ```
-6. Go to
-   ```sh
-   http://localhost:5173/
-   ```
-7. Backend running at
-   ```sh
-   http://localhost:3000/
-   ```
 
-## Contributing Guidelines
-
-Any contributions you make are truly appreciated, go to our [CONTRIBUTING.md](https://github.com/ALU-Opportunity-Board/opportunity-board/blob/develop/CONTRIBUTING.md) file for more information.
-
-## Code of Conduct
-
-View [CODE_OF_CONDUCT.md](https://github.com/ALU-Opportunity-Board/opportunity-board/blob/develop/CODE_OF_CONDUCT.md)
-
-## License
-
-opportunity-board is licensed under the MIT License - see the [LICENSE](https://github.com/ALU-Opportunity-Board/opportunity-board/blob/main/LICENSE) file for details.
-
-## Thanks to all Contributors
-
-<a href="https://github.com/ALU-Opportunity-Board
-/opportunity-board/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=ALU-Opprtunity-Board/opportunity-board" />
-</a>
