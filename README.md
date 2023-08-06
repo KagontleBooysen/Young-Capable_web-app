@@ -1,17 +1,16 @@
-# OPPORTUNITYBOARD
+# Yound&Capable
 
-We're working on a redesign of the current opportunity board website exclusively available to students at African Leadership University. The existing platform, which is built with canvas, has received complaints from numerous students and alumni. Our aim with this new website is to enhance the user experience and make opportunities more accessible to the community.
+Young&Capable is an online platform empowering the youth of Alexandra, South Africa, through I.T. education and training. Focusing on programming, web development, and database management, it equips students with essential skills for success in the technology industry. The platform also offers mentorship connections and informative events to support their growth in the I.T. field further.
+
 
 ## Demo
 
-Check out the video presentation: [opportunityboard](https://youtu.be/g24DxZdY030)
+Check out the site: [Young&Capable](https://youngandcapable.netlify.app)
 
 ## Screenshots
 
 ![Screenshot 2023-05-05 163803](https://github.com/KagontleBooysen/Young-Capable_web-app/assets/106469425/c7ec6a9c-4759-45a0-968f-d52951d60b01)
 
-
-![Screenshot 2023-05-05 164148](https://user-images.githubusercontent.com/82499435/236474389-71c4d10b-3920-45ac-b94d-e4764db1730b.png)
 
 
 ## Connect with us
