@@ -8,7 +8,7 @@ Check out the video presentation: [opportunityboard](https://youtu.be/g24DxZdY03
 
 ## Screenshots
 
-![Screenshot 2023-05-05 163803](![Screenshot 2023-08-04 215922](https://github.com/KagontleBooysen/Young-Capable_web-app/assets/106469425/c7ec6a9c-4759-45a0-968f-d52951d60b01)
+![Screenshot 2023-05-05 163803]((https://github.com/KagontleBooysen/Young-Capable_web-app/assets/106469425/c7ec6a9c-4759-45a0-968f-d52951d60b01)
 
 
 ![Screenshot 2023-05-05 164148](https://user-images.githubusercontent.com/82499435/236474389-71c4d10b-3920-45ac-b94d-e4764db1730b.png)
