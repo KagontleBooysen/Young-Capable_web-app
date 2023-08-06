@@ -809,6 +809,7 @@ footer {
 	color: #E5E8EF;
 	background: #000D;
 	padding: 50px 0; 
+
 }
 footer .footer-container {
 	max-width: 1300px;
@@ -830,9 +831,10 @@ footer .social-media a{
 	margin-right: 10px;
 	font-size: 22px;
 	text-decoration: none;
+	margin-right: 25px;
 }
 footer .right-col h1{
-	font-size: 26px;
+	font-size: 28px;
 }
 footer .border{
 	width: 100px;
