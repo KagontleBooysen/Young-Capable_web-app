@@ -1,6 +1,6 @@
 # Yound&Capable 
 
-                    ![youngcapable-low-resolution-logo-black-on-white-background-removebg-preview (1)](https://github.com/KagontleBooysen/Young-Capable_web-app/assets/106469425/417ce9f9-ebbe-4bd1-afe6-38bb6f41d0ae)
+         ![youngcapable-low-resolution-logo-black-on-white-background-removebg-preview (1)](https://github.com/KagontleBooysen/Young-Capable_web-app/assets/106469425/417ce9f9-ebbe-4bd1-afe6-38bb6f41d0ae)
 
 
 
