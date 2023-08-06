@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" type="image/png" href="images/icon/yg.png">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>insights</title>
+  <!-- FirebaseUI CSS -->
+<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="Register.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script>
+    $(window).on('scroll', function() {
+      if ($(window).scrollTop()) {
+        $('nav').addClass('black');
+      } else {
+        $('nav').removeClass('black');
+      }
+    });
+  </script>
+</head>
+<body>
+
+
+  <!-- Navigation Bar -->
+  <header id="header">
+    <nav>
+      <a href="index.html">
+        <div class="logo"><img src="images/icon/youngcapable.png" alt="logo"></div>
+      </a>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="demo.html">Insights</a></li>
+        <li>
+          <a href="#services_section">Services</a>
+          <ul class="submenu">
+            <li><a href="Discussions.html">Discussions</a></li>
+            <li><a href="Course.html">Courses</a></li>
+          </ul>
+        </li>
+        <li><a href="newcontact.html">Contact</a></li>
+      </ul>
+      <div class="srch">
+        <input type="text" class="search" placeholder="Search here...">
+        <img src="images/icon/search.png" alt="search" onclick="slide()">
+      </div>
+      <a class="get-started" href="login.html">Get Started</a>
+    </nav>
+
+    <section class="image-section">
+        <img src="images/extra/kg3.png" alt="Image">
+    </section>
+    <section class="contact-section">
+        <div class="contact-details">
+            <h2>Contact Details</h2>
+            <p>Email: contact@example.com</p>
+            <p>Phone: +1234567890</p>
+			<p><h1>Postal Address</p></h1></p>
+			<p>PO Box 32189, Kyalami, 1684</p>
+			<p><h1>Address</p></h1></p>
+			<p><h1>South Africa</p></h1></p>
+			<p>90 Rivonia Road, Sandton, South Africa</p>
+			<p><h1>Kigali</p></h1></p>
+			<p>Bumbogo, Kigali Innovation City</p>
+			<p> Next to Azam, Kigali</p>
+			<p>Rwanda</p>
+			<div class="social-media-icons">
+				<a href="#"><img src="../images/icon/face1.png" alt="Facebook"></a>
+				<a href="#"><img src="../images/icon/twitter1.png" alt="Twitter"></a>
+				<a href="#"><img src="../images/icon/instagram1.png" alt="Instagram"></a>
+				<a href="#"><img src="../images/icon/inkedin1.png" alt="Instagram"></a>
+			</div>
+       <body>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="" id="contact-form">
+              <h1>Let's be personal</h1>
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="email" id="emailid" placeholder="Your Email">
+                <textarea id="msgContent" placeholder="Your Message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+		<script src="./mail.js"></script>
+    <body>
+  </section>
+    
+
+	<footer>
+		<div class="footer-container">
+		  <div class="left-col">
+			<img src="../images/icon/new.png" style="width: 200px;">
+			<div class="logo"></div>
+			<div class="social-media">
+			  <a href="#"><img src="../images/icon/fb.png"></a>
+			  <a href="#"><img src="../images/icon/insta.png"></a>
+			  <a href="#"><img src="../images/icon/tt.png"></a>
+			  <a href="#"><img src="../images/icon/ytube.png"></a>
+			  <a href="#"><img src="../images/icon/linkedin.png"></a>
+			</div><br><br>
+			<p style="text-align: justify;">
+			  <img src="../images/icon/location.png" style="width: 20px;"> African Leadership University<br>
+			  Kigali, Rwanda
+			</p><br>
+			<p class="contact-info">
+			  <img src="../images/icon/phone.png" style="width: 20px;"> +27657012241
+			</p>
+			<p class="contact-info" style="margin-bottom: 20px;"></p>
+			<p>
+			  <img src="../images/icon/mail.png" style="width: 20px;"> Entrepreneurialhub@gmail.com
+			</p>
+		  </div>
+		  <div class="right-col">
+			<h1 style="color: #fff">Our Newsletter</h1>
+			<div class="border"></div><br>
+			<p>Enter Your Email to get our News and updates.</p>
+			<form class="newsletter-form">
+			  <input class="txtb" type="email" placeholder="Enter Your Email">
+			  <input class="btn" type="submit" value="Submit">
+			</form>
+		  </div>
+		</div>
+		<div class="container-fluid">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+			  <p class="copyright">Copyright 2023 | All Rights Reserved by Young&Capable Pvt. Ltd.
+			  </p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+</body>
+</html>

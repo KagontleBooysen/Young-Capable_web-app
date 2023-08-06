@@ -1,0 +1,26 @@
+/* Custom CSS for spacing between buttons */
+button#previous {
+    width: 120px; 
+    margin-right: 20px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  button#next {
+    width: 120px; 
+    margin-left: 0px;
+    border-radius: 5px;
+    padding-right: 700px;
+    text-align: center;
+    padding:5px
+  }
+
+  /* Custom CSS for button hover effect */
+button#previous:hover,
+button#next:hover {
+  background-color: #DF2771 /* Change to your desired pick color */
+}
+
+
+  

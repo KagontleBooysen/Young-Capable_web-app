@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" type="png" href="images/icon/yg.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Course.css">
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 } else {
+ 		    	$('nav').removeClass('black');
+ 			}
+		})
+	</script>
+</head>
+<body>
+	<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<a href="index.html">
+			<div class="logo"><img src="images/icon/youngcapable.png" alt="logo"></div>
+		    </a>
+			<ul>
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="demo.html">Insights</a></li>
+				<li><a href="#services_section">Services</a>
+				    <ul class="submenu">
+						<li><a href="Discussions.html">Discussions</a></li>
+					    <li><a href="Course.html">Courses</a></li>
+				</ul>
+			</li>
+				<li><a href="newcontact.html">Contact</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<a class="get-started" href="login.html">Get Started</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+	</header>
+
+
+	<div class="ccard">
+	<center>
+		<div class="ccardbox">
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/java-course.jpg"></div>
+				<a href="javapage.html"><div class="spart">2 Courses <img src="../images/icon/dropdown.png"></div></a>
+			</div>
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/python-course.png"></div>
+				<a href="pythonpage.html"><div class="spart">5 Courses <img src="../images/icon/dropdown.png"></div></a>
+			</div>
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/c-course.jpg"></div>
+				<a href="C++page.html"><div class="spart">3 Courses <img src="../images/icon/dropdown.png"></div></a>
+			</div>
+		</div>
+		<div class="ccardbox">
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/web-course.jpg"></div>
+				<a href="Web_developmentpage.html"><div class="spart">6 Courses <img src="../images/icon/dropdown.png"></div></a>
+			</div>
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/data-course.jpg"></div>
+				<a href="Datastructure.html"><div class="spart">2 Courses <img src="../images/icon/dropdown.png"></div></a>
+			</div>
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/algo-course.jpg"></div>
+				<a href="Algothrimpage.html"><div class="spart">1 Courses <img src="../images/icon/dropdown.png"></div></a>
+			</div>
+		</div>
+	</center>
+	</div>
+
+
+
+	
+
+<!-- FOOTER -->
+<footer>
+	<div class="footer-container">
+		<div class="left-col">
+			<img src="../images/icon/new.png" style="width: 200px;">
+			<div class="logo"></div>
+			<div class="social-media">
+				<a href="#"><img src="../images/icon/fb.png"></a>
+				<a href="#"><img src="../images/icon/insta.png"></a>
+				<a href="#"><img src="../images/icon/tt.png"></a>
+				<a href="#"><img src="../images/icon/ytube.png"></a>
+				<a href="#"><img src="../images/icon/linkedin.png"></a>
+			</div><br><br>
+		<p style="text-align: justify;">
+			<img src="../images/icon/location.png"> African Leadership University<br>
+			Kigali, Rwanda
+		</p><br>		
+			<p class="contact-info">
+				<img src="../images/icon/phone.png"> +27657012241
+			</p>
+			<p class="contact-info">
+				<img src="../images/icon/mail.png"> Entrepreneurialhub@gmail.com
+			</p>
+		</div>
+		<div class="right-col">
+			<h1 style="color: #fff">Our Newsletter</h1>
+			<div class="border"></div><br>
+			<p>Enter Your Email to get our News and updates.</p>
+			<form class="newsletter-form">
+				<input class="txtb" type="email" placeholder="Enter Your Email">
+				<input class="btn" type="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+	<div class="center-col">
+		<p class="rights-text">© 2023 Created By K Booysen All Rights Reserved.</p>
+	</div>
+</footer>
+
+</body>
+</html>

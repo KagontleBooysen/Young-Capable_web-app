@@ -1,0 +1,105 @@
+/* CSS for course cards */
+.ccard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .ccardbox {
+    display: flex;
+  }
+  
+  .dcard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+  }
+  
+  .fpart img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .spart {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* CSS for dropdown icon */
+  .spart img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+  
+  /* Add hover effect */
+  .dcard:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Center align the card content */
+  .fpart,
+  .spart,
+  .description {
+    text-align: center;
+  }
+
+  
+  .ccardbox {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+.dcard {
+	margin: 20px;
+	width: 300px;
+	height: 50px;
+	background: linear-gradient(to right, #FA4B37, #DF2771);
+	border-radius: 10px;
+	margin-top: 200px;
+}
+.dcard2:hover .fpart2 img {
+	display: none;
+}
+.dcard .fpart { 
+	width: inherit;
+	height: 180px;
+	background: #000;
+	color: #000;
+	text-align: left;
+	border-top-right-radius: 100px;
+	transform: translateY(-19px);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	overflow: hidden;
+}
+.dcard .tag {
+	position: relative;
+	margin-left: 270px;
+	top: 10px;
+	color: #fff;
+}
+.dcard .fpart img {
+	width: 100%;
+	height: 100%;
+}
+.fpart iframe {
+	height: inherit;
+	width: inherit;
+}
+
+
