@@ -1,6 +1,6 @@
 # Yound&Capable 
 
-![Screenshot 2023-05-05 163803]()![youngcapable-low-resolution-logo-white-on-black-background-removebg-preview__1_-removebg-preview](https://github.com/KagontleBooysen/Young-Capable_web-app/assets/106469425/ca08cbd3-4a05-4e6a-9a49-60e1258cd799)
+![youngcapable-low-resolution-logo-white-on-black-background-removebg-preview__1_-removebg-preview](https://github.com/KagontleBooysen/Young-Capable_web-app/assets/106469425/ca08cbd3-4a05-4e6a-9a49-60e1258cd799)
 
 
 Young&Capable is an online platform empowering the youth of Alexandra, South Africa, through I.T. education and training. Focusing on programming, web development, and database management, it equips students with essential skills for success in the technology industry. The platform also offers mentorship connections and informative events to support their growth in the I.T. field further.
