@@ -1,0 +1,69 @@
+/* CSS styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("images/extra/wallpaper.jpg");
+    background-size: cover;
+	background-attachment: fixed;
+}
+
+  label {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+.shifted-form {
+margin-left: 20px; /* Adjust the margin as desired */
+}
+   input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 80px;
+    border-radius: 5px;
+     box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+input[type="file"] {
+    margin-bottom: 20px; /* Added extra space */
+  }
+
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+     border-radius: 5px; /* Add this property for rounded corners */
+  }
+
+/* Reduce width for specific inputs */
+#fullName,
+#email, 
+#phone,
+#jobSector,
+/* Reduce width for the entire form */
+form {
+max-width: 700px; /* Adjust the width as desired */
+margin: 0;
+}
+/* Adjust the form to shift slightly to the right */
+#jobApplicationForm {
+margin-left: 30px; /* Adjust the margin as desired */
+}
+
+#Job Application{
+margin-left:50px
+}
+
+h1{
+margin-left:30px
+}
+
+/* Add space between Job Sector and Resume */
+#jobSector {
+margin-bottom: 20px; /* Adjust the margin as desired */
+}
+
